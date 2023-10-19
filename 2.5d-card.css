@@ -1,0 +1,19 @@
+.card-2-5d {
+    border-radius: 10px;
+    transform-origin: 0 0;
+    transition-duration: 100ms;
+    box-shadow: var(--shadow-h-offset) var(--shadow-v-offset) var(--shadow-blur) var(--shadow-spread) var(--shadow-color);
+    --shadow-h-offset: 0px;
+    --shadow-v-offset: 0px;
+    --shadow-blur: 5px;
+    --shadow-spread: 0px;
+    --shadow-color: gray;
+}
+
+.card-2-5d:hover {
+    transform: rotateX(-5deg) rotateY(2deg);
+    --shadow-h-offset: 1px;
+    --shadow-v-offset: 2px;
+    --shadow-blur: 7px;
+    --shadow-spread: 1px;
+}
